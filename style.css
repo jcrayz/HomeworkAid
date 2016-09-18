@@ -1,0 +1,181 @@
+/* Checkbox graphic */
+h1, h3 {
+    font-family: "Century Gothic";
+}
+
+img.loginGraphic {
+    padding: 0;
+    border: 0;
+    width: 35px;
+    height: 35px;
+}
+
+h4#semesterYear {
+    text-align: right;
+    color: white;
+    text-shadow: none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#menuBar {
+    background-image: url(sideBar.png);
+    float: left;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.menuButtons {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(200,200,200);
+    border-width: thin;
+    border-color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.menuButtons:hover {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#pageHead {
+    background-image: url(titleBar.png);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-family: "Century Gothic";
+}
+
+.content {
+    position: relative;
+    left: 325px;
+    font-family: "Calibri";
+}
+
+.content table, td {
+    table-layout: fixed;
+    text-align: center;
+    background-color: rgb(225,225,225);
+    border-color: white;
+    border: 1px solid gray;
+}
+
+.content th {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(225,225,225);
+    border-color: white;
+    border: 1px solid gray;
+    width: 150px;
+}
+
+.content td {
+    text-align: center;
+    background-color: rgb(225,225,225);
+    border-color: white;
+    border: 1px solid gray;
+    width: 150px;
+}
+
+.faded {
+    color: rgb(200,200,200);
+    font-style: italic;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.viewPage input{
+    position: relative;
+    left: 0px;
+}
+
+.homeworkList {
+    position: relative;
+    left: 100px;
+    height: 450px;
+    overflow-y: auto;
+}
+
+.errorMsg {
+    position: absolute;
+    left: 360px;
+    color: red;
+    font-weight: bold;
+}
+
+.loginStyle {
+    font-family: "Calibri";
+}
+
+.loginStyle input:not([type="submit"]) {
+    position: absolute;
+    left: 100px;
+}
+
+.registerStyle {
+    font-family: "Calibri";
+}
+
+.registerStyle input:not([type="submit"]) {
+    position: absolute;
+    left: 100px;
+}
+
+.addHwStyle input:not([type="submit"]):not([type="checkbox"]) {
+    position: absolute;
+    width: 200px;
+    left: 150px;
+    float: left;
+}
+
+.addHwStyle select {
+    position: absolute;
+    left: 150px;
+}
+
+#questionGraphic {
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.manageCoursesButtons button, input:not([type="color"]) {
+    width: 130px;
+}
+
+.addCourseStyle input:not([type="submit"]):not([type="number"]) {
+    position: absolute;
+    width: 150px;
+    left: 150px;
+}
+
+.footnote {
+    font-family: "Calibri";
+    font-size: 10pt;
+    color: gray;
+}
+
+#logoutLink a {
+    position: absolute;
+    left: 90px;
+    color: white;
+    text-decoration: none;
+    font-family: "Calibri";
+}
